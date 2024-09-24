@@ -1,0 +1,74 @@
+# Node modules directory
+node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# OS-specific files
+.DS_Store
+Thumbs.db
+# Optional npm cache directory
+.npm
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# Optional eslint cache
+.eslintcache
+# Optional REPL history
+.node_repl_history
+# Coverage directory used by tools like istanbul
+coverage/
+# Grunt and Bower directories
+.grunt/
+.bower/
+# TypeScript cache
+*.tsbuildinfo
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+# Next.js build output
+.next/
+# Nuxt.js build output
+.nuxt/
+# Gatsby files
+.cache/
+public
+# Vue.js build output
+dist/
+# Sapper build output
+__sapper__/
+# SvelteKit build output
+.svelte-kit/
+# Firebase cache
+.firebase/
+# Docker files
+docker-compose.override.yml
+# Miscellaneous
+*.tgz
+!.github
+!.vscode
+/_IGNORE_invoice_session
+pixel_session.data.json
+*.data.json
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*3gp
+
+# managed by open-wa
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed by open-wa
